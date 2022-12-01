@@ -1,0 +1,83 @@
+html {
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: unset;
+  font-size: unset;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* input {
+  opacity: 1;
+  color: #a9a9a9;
+} */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+:root {
+  /* Light Mode Colors */
+  --clr-element: white;
+  --clr-element-highlight: hsl(0, 0%, 90%);
+  --clr-element-active: hsl(0, 0%, 94%);
+  --clr-background: hsl(0, 0%, 98%);
+  --clr-text: hsl(200, 15%, 8%);
+  --clr-input: hsl(0, 0%, 52%);
+  --clr-image-backdrop: hsl(0, 0%, 94%);
+  --shadow: rgba(0, 0, 0, 0.08) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.04) 0px 2px 4px -1px;
+
+  --icon-search: url('../images/search-outline.svg');
+}
+
+[data-theme='dark'] {
+  /* Dark Mode Colors */
+  --clr-element: hsl(209, 23%, 22%);
+  --clr-element-highlight: hsl(207, 23%, 26%);
+  --clr-element-active: hsl(208, 24%, 23%);
+  --clr-background: hsl(207, 26%, 17%);
+  --clr-input: white;
+  --clr-image-backdrop: hsl(208, 24%, 23%);
+  --clr-text: white;
+
+  --icon-search: url('../images/search-outline-dark-theme.svg');
+  --shadow: rgba(0, 0, 0, 0.1) 0px 6px 8px -1px,
+    rgba(0, 0, 0, 0.06) 0px 4px 6px -1px;
+}
+
+/* display: flex;
+flex-wrap: wrap;
+row-gap: 20px;
+column-gap: 5px; */
+
+.super-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+  background-color: var(--clr-background);
+}

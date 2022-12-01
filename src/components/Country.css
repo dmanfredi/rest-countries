@@ -1,0 +1,65 @@
+.country-container {
+  width: 290px;
+  border-radius: 7px;
+  overflow: hidden;
+
+  background-color: var(--clr-element);
+  box-shadow: var(--shadow);
+  cursor: pointer;
+}
+.country-container:active {
+  background-color: var(--clr-element-active); /* ??? Wont work?*/
+}
+.country-container:hover {
+  background-color: var(--clr-element-highlight);
+}
+
+.flag-container {
+  background-color: var(--clr-image-backdrop);
+  width: 100%;
+  height: 180px;
+}
+.flag-container:hover {
+  opacity: 0.9;
+}
+.flag-container:active {
+  opacity: 0.9;
+}
+
+.country-flag {
+  width: 100%;
+  height: 180px;
+}
+
+.country-content {
+  display: flex;
+  flex-direction: column;
+
+  /* height: 200px; */
+  padding: 1.5rem;
+  padding-bottom: 2.5rem;
+
+  color: var(--clr-text);
+}
+
+.country-title {
+  padding: 1rem;
+  padding-top: 0rem;
+  padding-left: 0rem;
+  font-size: 1.3rem;
+  font-weight: 800;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  color: var(--clr-text);
+}
+
+.country-detail-container {
+  color: var(--clr-text);
+  display: flex;
+}
+
+.country-detail-head {
+  color: var(--clr-text);
+  font-weight: 600;
+}
