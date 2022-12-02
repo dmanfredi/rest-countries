@@ -7,6 +7,7 @@ import MenuArrow from '../images/chevron-down-outline.svg';
 import MenuArrowDark from '../images/chevron-down-outline-dark-theme.svg';
 import FilterMenu from './FilterMenu';
 import Country from './Country';
+import EarthIcon from '../images/earth-icon2.png';
 
 const Main = ({ theme }) => {
   const [countryData, setCountryData] = useState([]);
@@ -17,6 +18,7 @@ const Main = ({ theme }) => {
 
   useEffect(() => {
     fetchCountryData();
+    // document.querySelector('.iconer').href = { EarthIcon };
   }, []);
 
   function handleToggleFilterMenu() {

@@ -47,6 +47,7 @@ const CountryPage = ({ theme }) => {
       borders: content.borders,
     };
 
+    // document.querySelector('.iconer').href = contentForm.flag;
     setCountryPageData(contentForm);
   }
 

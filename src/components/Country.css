@@ -8,7 +8,7 @@
   cursor: pointer;
 }
 .country-container:active {
-  background-color: var(--clr-element-active); /* ??? Wont work?*/
+  background-color: var(--clr-element-active); /* ??? Wont work? */
 }
 .country-container:hover {
   background-color: var(--clr-element-highlight);
@@ -19,14 +19,15 @@
   width: 100%;
   height: 180px;
 }
-.flag-container:hover {
+/* .flag-container:hover {
   opacity: 0.9;
 }
 .flag-container:active {
   opacity: 0.9;
-}
+} */
 
 .country-flag {
+  /* object-fit: contain; */
   width: 100%;
   height: 180px;
 }

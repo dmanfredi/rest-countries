@@ -172,7 +172,7 @@
 @media (min-width: 1124px) {
   .all-details-container {
     flex-direction: row;
-    margin-bottom: 8rem;
+    padding-bottom: 8rem;
   }
   .page-country-flag {
     /* max-width: 500px; */
